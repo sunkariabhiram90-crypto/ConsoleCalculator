@@ -88,7 +88,7 @@ public class ConsoleCalculator {
                 double result = Expression(input);
                 System.out.println("Result: " + result);
             } catch (Exception e) {
-                System.out.println("Wrong input: " + e.getMessage());
+                System.out.println("Error: " + e.getMessage());
             }
         }
 
